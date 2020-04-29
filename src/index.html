@@ -2,11 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>POKEDEX</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <meta name="viewport" content="width=device-width">
+    <title>Pokedex</title>
+    <link rel="icon" type="image/png" href="./img/pngwave.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   </head>
   <body>
+    <script src="script.js"></script>
+    <div class="banner">
+      <img src="./img/banner.png">
+    </div>
+
+    <header>
+      <div class="menu" id="menu">
+        <div class="filters">
+          <img id="clip" class="clip" src="./img/clip.png" height="50px" width="50px">
+            <label for="order">Ordenar</label><br>
+            <select class="selector" id="order">
+                <option value="0" selected="selected">Seleccionar</option>
+                <option value="A-Z"> A - Z </option>
+                <option value="Z-A"> Z - A </option>
+                <option value="1-151"> 1 - 151 </option>
+                <option value="151-1"> 151 - 1 </option>
+            </select>
+            <img id="grass" class="grass" src="./img/Grass.png" height="50px" width="50px">
+            <label for="type">Tipo de Pokemón</label><br>
+            <select class="selector" id="type">
+                <option value="0" selected="selected">Seleccionar</option>
+                <option value="Bug"> Bicho </option>
+                <option value="Dragon"> Dragón </option>
+                <option value="Electric"> Eléctrico </option>
+                <option value="Fighting"> Fighting </option>
+                <option value="Fire"> Fuego </option>
+                <option value="Flying"> Volador </option>
+                <option value="Ghost"> Fantasma </option>
+                <option value="Grass"> Planta </option>
+                <option value="Ground"> Ground </option>
+                <option value="Ice"> Hielo </option>
+                <option value="Normal"> Normal </option>
+                <option value="Poison"> Veneno </option>
+                <option value="Psychic"> Psíquico </option>
+                <option value="Rock"> Roca </option>
+                <option value="Water"> Agua </option>
+            </select>
+            <img id="eggs" class="eggs" src="./img/Eggs.png" height="60px" width="60px">
+            <label for="eggs">Huevos por Km</label><br>
+            <select class="selector" id="eggs">
+                <option value="0" selected="selected">Seleccionar</option>
+                <option value="2 km"> 2 km </option>
+                <option value="5 km"> 5 km </option>
+                <option value="10 km"> 10 km </option>
+            </select>
+        </div>
+    </div>
+    </header>
+      <!-- aquí va ir la Pokedex -->
+      <section id="container_pokemones" class="container_pokemones">
+      </section>
+      <!-- Pokedex --> 
+
+    <div id=video class="cajavideo">
+      <iframe width="320" height="240" src="https://www.youtube.com/embed/HdkWhoBs8BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="footer">
+      <table>
+        <tr>
+          <td><a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=es_CL"> <img src="./img/android.png" height="50px" width="150px"></a></td>
+          <td><a href="https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345"><img src="./img/ios.png" height="65px" width="180px"></td>
+        </tr>
+       </table>
+    
+    </div>
     <div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

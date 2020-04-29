@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+html {
+   scroll-behavior: smooth;
+ }
+
+body {
+    background-image: url('https://i.imgur.com/Bt0sdpD.jpg?1');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+    
+   .banner {
+    display: flex;
+    justify-content:center;
+    }
+
+   .menu {
+      position: center;
+      right: 0;
+      font-family: 'Dosis', sans-serif;
+      font-size: 20px;
+      color: black;
+      background-color: gold;
+      border-radius: 20px;
+      margin: 2% 10%;
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+    
+      
+   }
+  .filters {
+      padding: 1em; 
+      margin-bottom: 0px;
+      box-sizing: border-box;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+   }
+  .selector {
+      margin-left: 15px;
+      height: 30px;
+      width: 100px;
+   }
+
+   .cajavideo{
+      display: flex;
+      justify-content: flex-end;
+      background: gold;
+      border-radius: 20px;
+      margin: 2% 5% 10% 70%;
+   }
+
+   #video {
+      display: flex;
+      justify-content: flex-end;
+   }
+
+
+   #footer {
+      background: gold;
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      padding: 1em;
+      align-self: flex-end;
+    }

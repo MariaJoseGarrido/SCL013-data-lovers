@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 
 html {
    scroll-behavior: smooth;
@@ -25,9 +26,9 @@ body {
       border-radius: 20px;
       margin: 2% 10%;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
-    
-      
+
    }
+
   .filters {
       padding: 1em; 
       margin-bottom: 0px;
@@ -36,25 +37,12 @@ body {
       display: flex;
       flex-wrap: wrap;
    }
+
   .selector {
       margin-left: 15px;
       height: 30px;
       width: 100px;
    }
-
-   .cajavideo{
-      display: flex;
-      justify-content: flex-end;
-      background: gold;
-      border-radius: 20px;
-      margin: 2% 5% 10% 70%;
-   }
-
-   #video {
-      display: flex;
-      justify-content: flex-end;
-   }
-
 
    #footer {
       background: gold;
@@ -64,3 +52,54 @@ body {
       padding: 1em;
       align-self: flex-end;
     }
+
+   .pokedex {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 1%;
+      box-sizing: border-box;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      width: 100%; 
+  }
+  
+  .pokeCards {
+      font-family: 'Dosis', sans-serif;
+      font-size: 12px;
+      padding: 20px;
+      padding-top: 2%;
+      padding bottom: 5%;
+      margin: 1%;
+      width: 150px;
+      height: 240px;*/
+      text-align: center; 
+      border-radius: 6%;
+      background: linear-gradient(to bottom, PaleGreen, Teal);
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+      opacity: 88%;
+  }
+  
+    .pokeCards:hover {
+      opacity: 1;
+    }
+
+
+    .cajavideo{
+       position: left;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+       background-color: gold;
+       width: 340px;
+       height: 300px;
+       margin: 10px;
+       padding-top: 5em;
+       border-radius: 6%;
+    }
+
+
+

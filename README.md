@@ -43,9 +43,9 @@ Requerimientos
 
 Foto prototipo a mano alzada
  
- ![bajaFidelidad](img/interfaz1.png)
- ![bajaFidelidad](img/interfaz2.png)
- ![bajaFidelidad](img/interfaz3.png)
+ ![bajaFidelidad](./src/img/interfaz1.png)
+ ![bajaFidelidad](./src/img/interfaz2.png)
+ ![bajaFidelidad](./src/img/interfaz3.png)
 
 ### Prototipo de alta Fidelidad
 
@@ -66,11 +66,11 @@ En este testeo de Interfaz de Usuario se utilizó Maze (https://t.maze.design/10
 
 ### Diagrama de Flujo
 
-![bajaFidelidad](img/flujo.png)
+![bajaFidelidad](./src/img/flujo.png)
 
 ### Propuesta del Proyecto
 
-![altaFidelidad](img/propuesta.png)
+![altaFidelidad](./src/img/propuesta.png)
 
 ### Testeo
 

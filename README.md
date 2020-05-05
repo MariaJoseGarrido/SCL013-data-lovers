@@ -1,6 +1,6 @@
 # Segundo proyecto Data Lovers
 
-![logo](https://www.stickpng.com/es/img/iconos-logotipos-emojis/companias-technologicas/logo-pokemon-go)
+![logo](./src/img/logo.png)
 
 ## Descripción General del proyecto
 

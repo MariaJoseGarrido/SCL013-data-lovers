@@ -22,20 +22,20 @@ Metodología
 Se realizó una encuesta a personas conocidas que tenian alguna noción de Pokémon GO a través de whatsapp, donde se pidió algunos datos sobre su experiencia con el juego Pokémon GO y su opinión de aplicaciones similares a "Pokemon Go - Pokedex". 
 
 Historia Usuaria uno
-•	Usuario (Yo): Fernanda, jugadora novata de Pokémon Go.
-•	Necesita (Qué, Quiero): Conocer los nombres y características de los pokémones, sin necesidad de haberlos atrapados.
-•	Para: Poder saber cuáles son los mejores pokemones y aplicarlo para ganar batallas en los gimnasios Pokémon.
+1.	Usuario (Yo): Fernanda, jugadora novata de Pokémon Go.
+2.	Necesita (Qué, Quiero): Conocer los nombres y características de los pokémones, sin necesidad de haberlos atrapados.
+3.	Para: Poder saber cuáles son los mejores pokemones y aplicarlo para ganar batallas en los gimnasios Pokémon.
 
 Historia Usuario dos
-•	Usuario (Yo): Andrés, jugador de Pokémon Go.
-•	Necesita (Qué, Quiero): Saber que pokemones puedo obtener de la eclosión de huevos.
-•	Para: Poder saber que pokemones puedo obtener de los huevos y cuáles son los que me sirven.
+1.	Usuario (Yo): Andrés, jugador de Pokémon Go.
+2.	Necesita (Qué, Quiero): Saber que pokemones puedo obtener de la eclosión de huevos.
+3.	Para: Poder saber que pokemones puedo obtener de los huevos y cuáles son los que me sirven.
 
 Requerimientos
-•	Mostrar los 151 pokemones  según orden alfabético y según Pokédex
-•	Ver información detallada del Pokémon seleccionado.
-•	Filtrar pokemones según su eclosión de huevo de acuerdo a KM.
-•	Añadimos filtrado por tipo (Fuego, Agua, Tierra, Eléctrico, etc).
+1.	Mostrar los 151 pokemones : según orden alfabético y según Pokédex
+2.	Ver información detallada del Pokémon seleccionado.
+3.	Filtrar pokemones según su eclosión de huevo de acuerdo a KM.
+4.	Añadimos filtrado por tipo (Fuego, Agua, Tierra, Eléctrico, etc).
 
 ## Diseño de Interfaz de Usuario
 

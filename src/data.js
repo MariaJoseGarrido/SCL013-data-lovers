@@ -1,6 +1,6 @@
 import data from './data/pokemon/pokemon.js';
 
-//funcion ordernar por alfabeto y numero
+//función ordernar por alfabeto y número
 export const filterData = (selectedOrder) => {
     let filterOrder = selectedOrder.options[selectedOrder.selectedIndex].value;
     let filtered = "";
@@ -21,3 +21,15 @@ export const filterData = (selectedOrder) => {
         return filtered;
 };
 
+//función ordernar tipo
+export const filterType = (selectedType) => {
+    let typeFilter = data.pokemon.filter(element => element.type.includes(selectedType));
+    return typeFilter;
+} 
+
+//función ordernar por huevo
+export const filterEggs = (selectedEggs) => {
+    let eggFilter = data.pokemon.filter(element => element.egg.includes(selectedEggs));
+    return eggFilter;
+    
+}

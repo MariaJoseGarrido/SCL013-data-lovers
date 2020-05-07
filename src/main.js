@@ -1,5 +1,5 @@
 import data from './data/pokemon/pokemon.js';
-import {filterData} from './data.js';
+import {filterData, filterType, filterEggs} from './data.js';
 
 //Creacion de tarjetas index
 for (let i = 0; i < data.pokemon.length; i++) {    
@@ -90,5 +90,99 @@ selectOrder.addEventListener("change", ()=>{
 
 })
 
+//seleccionar ordenar por tipo
+const selectType = document.getElementById("type");
+selectType.addEventListener("change", ()=>{
+    let pokeTypes = filterType(selectType.value);
 
+    document.getElementById("pokedex").innerHTML=""; //las comillas borran la
+
+    for (let i = 0; i < pokeTypes.length; i++) { 
+        let pokeCards = document.createElement("div");
+        pokeCards.className = "pokeCards";
+        pokeCards.id = "pokeCards";   
+    
+        //variable para crear nombre pokemon
+        let pokeName = document.createElement("h3");
+        pokeName.textContent = pokeTypes[i].name;
+    
+        //variable para craer imagen pokemon
+        let image = document.createElement("img");
+        image.src = pokeTypes[i].img;
+    
+        //variable número pokemon
+        let pokeNumber = document.createElement("h4");
+        pokeNumber.textContent = "#" + pokeTypes[i].num;
+        pokeNumber.className = "number";
+    
+        //Creando tipo de pokemon primer tipo
+        let pokeType = document.createElement("p");
+        pokeType.textContent = pokeTypes[i].type[0]; //tipo 0 
+        pokeType.className = "type";
+    
+        //Creando tipo de pokemon segundo tipo
+        let pokeType2 = document.createElement("p");
+        pokeType2.className = "type2";
+        pokeType2.textContent = pokeTypes[i].type[1];  
+    
+        //Dando valor a variables
+        pokeCards.appendChild(pokeName);
+        pokeCards.appendChild(image);
+        pokeCards.appendChild(pokeNumber);
+        pokeCards.appendChild(pokeType);
+        pokeCards.appendChild(pokeType2);
+    
+        //Mostrar tarjeta en HTLM section
+        document.getElementById("pokedex").appendChild(pokeCards).innerHTML;    
+    }
+
+})
+
+//seleccionar ordenar por huevos
+const selectEggs = document.getElementById("eggkm");
+selectEggs.addEventListener("change", ()=>{
+    let pokeTypes = filterEggs(selectEggs.value);
+
+    document.getElementById("pokedex").innerHTML=""; //las comillas borran la
+
+    for (let i = 0; i < pokeTypes.length; i++) { 
+        let pokeCards = document.createElement("div");
+        pokeCards.className = "pokeCards";
+        pokeCards.id = "pokeCards";   
+    
+        //variable para crear nombre pokemon
+        let pokeName = document.createElement("h3");
+        pokeName.textContent = pokeTypes[i].name;
+    
+        //variable para craer imagen pokemon
+        let image = document.createElement("img");
+        image.src = pokeTypes[i].img;
+    
+        //variable número pokemon
+        let pokeNumber = document.createElement("h4");
+        pokeNumber.textContent = "#" + pokeTypes[i].num;
+        pokeNumber.className = "number";
+    
+        //Creando tipo de pokemon primer tipo
+        let pokeType = document.createElement("p");
+        pokeType.textContent = pokeTypes[i].type[0]; //tipo 0 
+        pokeType.className = "type";
+    
+        //Creando tipo de pokemon segundo tipo
+        let pokeType2 = document.createElement("p");
+        pokeType2.className = "type2";
+        pokeType2.textContent = pokeTypes[i].type[1];  
+    
+        //Dando valor a variables
+        pokeCards.appendChild(pokeName);
+        pokeCards.appendChild(image);
+        pokeCards.appendChild(pokeNumber);
+        pokeCards.appendChild(pokeType);
+        pokeCards.appendChild(pokeType2);
+    
+        //Mostrar tarjeta en HTLM section
+        document.getElementById("pokedex").appendChild(pokeCards).innerHTML;    
+    }
+
+})
 

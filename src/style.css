@@ -65,41 +65,79 @@ body {
       align-content: center;
       text-align: center;
       width: 100%; 
-  }
+   }
   
   .pokeCards {
       font-family: 'Dosis', sans-serif;
-      font-size: 12px;
+      font-size: 15px;
       padding: 20px;
       padding-top: 2%;
-      padding bottom: 5%;
+      padding-bottom: 5%;
       margin: 1%;
       width: 150px;
-      height: 240px;*/
+      height: 220px; 
       text-align: center; 
-      border-radius: 6%;
+      border-radius: 10%;
       background: linear-gradient(to bottom, PaleGreen, Teal);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       opacity: 88%;
-  }
-  
-    .pokeCards:hover {
-      opacity: 1;
-    }
+      transition: .5s;
+   }
 
+   .pokeCards:hover {
+      transform: rotateY(180deg);
+   }
+
+   p {
+      margin: 5px;
+      padding: 0px;
+      color:black; 
+      background-color: LightSeaGreen;
+      border-radius: 8px;
+      background-color: transparent;
+   }
+  
+   h3 {
+      margin: 5px;
+      color: black;
+      font-size: 16px;
+   }  
+
+   h4 {
+      margin: 0px;
+      color:black;
+      font-size: 15px;
+   }
+
+    .pokeCards:hover {
+      opacity: 5;
+   }
 
     .cajavideo{
-       position: left;
        display: flex;
+       flex-direction: column;
        justify-content: center;
        align-items:center;
-       background-color: gold;
        width: 340px;
        height: 300px;
-       margin: 10px;
-       padding-top: 5em;
-       border-radius: 6%;
+       border-radius: 10%;
+       background: linear-gradient(to bottom, PaleGreen, Teal);
+       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+       padding:1%;
+   }
+
+    #main {
+      display: flex;
+      justify-content: right;
+      
+
     }
 
+    .noob {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      font-family: 'Dosis', sans-serif;
+   }
 
-
+    

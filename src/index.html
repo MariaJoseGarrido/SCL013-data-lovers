@@ -32,25 +32,25 @@
             <label for="type">Tipo de Pokemón</label><br>
             <select class="selector" id="type">
                 <option value="0" selected="selected">Seleccionar</option>
-                <option value="Bug"> Bicho </option>
-                <option value="Dragon"> Dragón </option>
-                <option value="Electric"> Eléctrico </option>
-                <option value="Fighting"> Lucha </option>
-                <option value="Fire"> Fuego </option>
-                <option value="Flying"> Volador </option>
-                <option value="Ghost"> Fantasma </option>
-                <option value="Grass"> Planta </option>
-                <option value="Ground"> Tierra </option>
-                <option value="Ice"> Hielo </option>
+                <option value="Bicho"> Bicho </option>
+                <option value="Dragón"> Dragón </option>
+                <option value="Eléctrico"> Eléctrico </option>
+                <option value="Lucha"> Lucha </option>
+                <option value="Fuego"> Fuego </option>
+                <option value="Volador"> Volador </option>
+                <option value="Fantasma"> Fantasma </option>
+                <option value="Planta"> Planta </option>
+                <option value="Tierra"> Tierra </option>
+                <option value="Hielo"> Hielo </option>
                 <option value="Normal"> Normal </option>
-                <option value="Poison"> Veneno </option>
-                <option value="Psychic"> Psíquico </option>
-                <option value="Rock"> Roca </option>
-                <option value="Water"> Agua </option>
+                <option value="Veneno"> Veneno </option>
+                <option value="Psíquico"> Psíquico </option>
+                <option value="Roca"> Roca </option>
+                <option value="Agua"> Agua </option>
             </select>
             <img id="eggs" class="eggs" src="./img/Eggs.png" height="60px" width="60px">
             <label for="eggs">Huevos por Km</label><br>
-            <select class="selector" id="eggs">
+            <select class="selector" id="eggkm">
                 <option value="0" selected="selected">Seleccionar</option>
                 <option value="2 km"> 2 km </option> 
                 <option value="5 km"> 5 km </option>
@@ -59,21 +59,20 @@
         </div>
     </div>
     </header>
-
-    <div id= "caja" class="cajavideo" > 
-      <div class= "novato" >
-        
-        <div id=video>
-         <iframe width="320" height="240" src="https://www.youtube.com/embed/HdkWhoBs8BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="main">
+      <div id= "caja" class="cajavideo">
+        <div class= "noob">
+          <p>Eres nuevo en Pokemón?, Quieres jugar y no sabes de qué se trata?, ve este video!!</p>
         </div>
+          <iframe width="320" height="240" src="https://www.youtube.com/embed/HdkWhoBs8BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-    </div> 
-
-      <!-- Pokedex -->
-      <section id="pokedex" class="pokedex">
-      </section>
-      <!-- Pokedex --> 
-    
+        <div>
+        <!-- Pokedex -->
+           <section id="pokedex" class="pokedex">
+           </section>
+         <!-- Pokedex --> 
+       </div>
+    </div>
     <div id="footer">
       <table>
         <tr>

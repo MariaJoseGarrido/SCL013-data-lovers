@@ -21,6 +21,7 @@ export const filterData = (selectedOrder) => {
         return filtered;
 };
 
+<<<<<<< HEAD
 //función ordernar tipo
 export const filterType = (selectedType) => {
     let typeFilter = data.pokemon.filter(element => element.type.includes(selectedType));
@@ -33,3 +34,6 @@ export const filterEggs = (selectedEggs) => {
     return eggFilter;
     
 }
+=======
+
+>>>>>>> ebee7685fa0ba20288de8f3ac79f8fbd121f52e4

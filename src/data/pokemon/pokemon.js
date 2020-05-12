@@ -6,7 +6,7 @@ export default {
     "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
     "type": [
       "Planta",
-      "Veneno"
+      "Veneno" 
     ],
     "height": "0.71 m",
     "weight": "6.9 kg",
@@ -989,14 +989,14 @@ export default {
   }, {
     "id": 35,
     "num": "035",
-    "name": "CleHada",
+    "name": "Clefairy",
     "img": "http://www.serebii.net/pokemongo/pokemon/035.png",
     "type": [
       "Normal"
     ],
     "height": "0.61 m",
     "weight": "7.5 kg",
-    "candy": "CleHada Candy",
+    "candy": "Clefairy Candy",
     "candy_count": 50,
     "egg": "2 km",
     "spawn_chance": 0.92,
@@ -1023,7 +1023,7 @@ export default {
     ],
     "height": "1.30 m",
     "weight": "40.0 kg",
-    "candy": "CleHada Candy",
+    "candy": "Clefairy Candy",
     "egg": "Not in Eggs",
     "spawn_chance": 0.012,
     "avg_spawns": 1.2,
@@ -1034,7 +1034,7 @@ export default {
     ],
     "prev_evolution": [{
       "num": "035",
-      "name": "CleHada"
+      "name": "Clefairy"
     }]
   }, {
     "id": 37,
@@ -3954,7 +3954,7 @@ export default {
     "name": "Dratini",
     "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
     "type": [
-      "Dragon"
+      "Dragón"
     ],
     "height": "1.80 m",
     "weight": "3.3 kg",
@@ -3970,7 +3970,7 @@ export default {
     ],
     "weaknesses": [
       "Hielo",
-      "Dragon",
+      "Dragón",
       "Hada"
     ],
     "next_evolution": [{
@@ -3986,7 +3986,7 @@ export default {
     "name": "Dragonair",
     "img": "http://www.serebii.net/pokemongo/pokemon/148.png",
     "type": [
-      "Dragon"
+      "Dragón"
     ],
     "height": "3.99 m",
     "weight": "16.5 kg",
@@ -3999,7 +3999,7 @@ export default {
     "multipliers": [2.05],
     "weaknesses": [
       "Hielo",
-      "Dragon",
+      "Dragón",
       "Hada"
     ],
     "prev_evolution": [{
@@ -4016,7 +4016,7 @@ export default {
     "name": "Dragonite",
     "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
     "type": [
-      "Dragon",
+      "Dragón",
       "Volador"
     ],
     "height": "2.21 m",
@@ -4030,7 +4030,7 @@ export default {
     "weaknesses": [
       "Hielo",
       "Roca",
-      "Dragon",
+      "Dragón",
       "Hada"
     ],
     "prev_evolution": [{

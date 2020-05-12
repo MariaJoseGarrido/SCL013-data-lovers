@@ -22,14 +22,14 @@ body {
       font-family: 'Dosis', sans-serif;
       font-size: 20px;
       color: black;
-      background-color: gold;
-      border-radius: 20px;
-      margin: 2% 10%;
+      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      border-radius: 15px;
+      margin: 2% 0%;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
 
    }
 
-  .filters {
+   .filters {
       padding: 1em; 
       margin-bottom: 0px;
       box-sizing: border-box;
@@ -45,7 +45,7 @@ body {
    }
 
    #footer {
-      background: gold;
+      background: linear-gradient(to bottom right, #165051, #8AFEFF);
       color: #fff;
       width: 100%;
       text-align: center;
@@ -78,10 +78,11 @@ body {
       height: 220px; 
       text-align: center; 
       border-radius: 10%;
-      background: linear-gradient(to bottom, PaleGreen, Teal);
+      background: linear-gradient(to right, #40D1A3, #84D898);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       opacity: 88%;
       transition: .5s;
+      cursor: pointer;
    }
 
    .pokeCards:hover {
@@ -92,11 +93,13 @@ body {
       margin: 5px;
       padding: 0px;
       color:black; 
-      background-color: LightSeaGreen;
       border-radius: 8px;
-      background-color: transparent;
    }
   
+   .info {
+      background-color: green;
+   }
+
    h3 {
       margin: 5px;
       color: black;
@@ -109,28 +112,61 @@ body {
       font-size: 15px;
    }
 
-    .pokeCards:hover {
-      opacity: 5;
+
+   .cajavideo{
+      font-family: 'Dosis', sans-serif;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      width: 340px;
+      height: 300px;
+      border-radius: 10%;
+      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+      padding:1%;
+   }
+   .box2{
+      font-family: 'Dosis', sans-serif;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      width: 340px;
+      height: 200px;
+      border-radius: 10%;
+      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+      padding:1%;
+      margin-top:10%;  
    }
 
-    .cajavideo{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items:center;
-       width: 340px;
-       height: 300px;
-       border-radius: 10%;
-       background: linear-gradient(to bottom, PaleGreen, Teal);
-       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
-       padding:1%;
+   .box3{
+      font-family: 'Dosis', sans-serif;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      width: 340px;
+      height: 350px;
+      border-radius: 10%;
+      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+      padding:1%;
+      margin-top:10%;  
    }
+
+   #chatLogo img{
+      width: 250px;
+      height: 230px;
+    }
 
     #main {
       display: flex;
       justify-content: right;
-      
-
     }
 
     .noob {
@@ -140,4 +176,48 @@ body {
       font-family: 'Dosis', sans-serif;
    }
 
-    
+   /*Modal*/
+
+   .modalpokeCards{
+      background: linear-gradient(0deg, rgba(7,34,78,1) 0%, rgba(2,77,162,1) 100%) !important;
+      position: fixed;
+      width: auto !important;
+      height: auto !important;
+      padding: 10px;
+      border-radius: 15px;
+      top: 50%;
+      left: 50%;
+      font-family: 'Dosis', sans-serif;
+      font-size: 20px;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      z-index: 1;
+      top: 20%;
+      left: 50%;
+   }
+   .modalpokeCards h3, p{
+      font-size: 20px;
+      color: #fff;
+   }
+   .close{
+      cursor: pointer;
+      font-size: 36px;
+      color: white;
+   }
+   
+   .modalpokeCards.close {
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+   }
+
+   .modalpokeCards.close:hover,
+   .modalpokeCards.close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+   }

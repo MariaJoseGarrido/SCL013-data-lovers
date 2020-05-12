@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png" href="./img/pngwave.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
   </head>
   <body>
     <script src="script.js"></script>
@@ -22,7 +21,7 @@
           <img id="clip" class="clip" src="./img/clip.png" height="50px" width="50px">
             <label for="order">Ordenar</label><br>
             <select class="selector" id="order">
-                <option value="0" selected="selected">Seleccionar</option>
+                <option value="0" selected="selected">Todos</option>
                 <option value="A-Z"> A - Z </option>
                 <option value="Z-A"> Z - A </option>
                 <option value="1-151"> 1 - 151 </option>
@@ -60,29 +59,40 @@
     </div>
     </header>
     <div id="main">
-      <div id= "caja" class="cajavideo">
-        <div class= "noob">
-          <p>Eres nuevo en Pokemón?, Quieres jugar y no sabes de qué se trata?, ve este video!!</p>
+      <div> 
+        <div id="caja" class="cajavideo">
+          <div class="noob">
+            <p>Eres nuevo en Pokemón?, ve este video!!</p>
+          </div>
+          <iframe width="320" height="240" src="https://www.youtube.com/embed/HdkWhoBs8BE" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        <div class="box2">
+          <div>
+            <p>Descarga la app!</p>
+            <table>
+              <tr>
+                <ul><a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=es_CL"> <img src="./img/android.png" height="50px" width="150px"></a></ul>
+                <ul><a href="https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345"><img src="./img/ios.png" height="65px" width="180px"></a></ul>
+              </tr>
+             </table>    
+          </div>
         </div>
-          <iframe width="320" height="240" src="https://www.youtube.com/embed/HdkWhoBs8BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-        <div>
+        <div class="box3">
+          <img src="./img/chat.png" id="chatLogo">
+        </div>
+      </div>   
+      <div>
+       <!-- Modal-->
+       <section id="modalPokedex" class="modalPokedex"></section>
+       <!-- Modal -->
         <!-- Pokedex -->
-           <section id="pokedex" class="pokedex">
-           </section>
-         <!-- Pokedex --> 
-       </div>
+        <section id="pokedex" class="pokedex"></section>
+        <!-- Pokedex -->
+      </div>
     </div>
     <div id="footer">
-      <table>
-        <tr>
-          <td><a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=es_CL"> <img src="./img/android.png" height="50px" width="150px"></a></td>
-          <td><a href="https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345"><img src="./img/ios.png" height="65px" width="180px"></td>
-        </tr>
-       </table>
-    
     </div>
-    <div id="root"></div>
     <script type="module" src="main.js"></script>
   </body>
 </html>

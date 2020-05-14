@@ -18,10 +18,10 @@ export default {
     "spawn_time": "20:00",
     "multipliers": [1.58],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "002",
@@ -52,10 +52,10 @@ export default {
       1.6
     ],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "001",
@@ -83,10 +83,10 @@ export default {
     "spawn_time": "11:30",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "001",
@@ -113,9 +113,9 @@ export default {
     "spawn_time": "08:45",
     "multipliers": [1.65],
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "005",
@@ -142,9 +142,9 @@ export default {
     "spawn_time": "19:00",
     "multipliers": [1.79],
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "004",
@@ -172,9 +172,9 @@ export default {
     "spawn_time": "13:34",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Eléctrico",
-      "Roca"
+      " Agua",
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "004",
@@ -201,8 +201,8 @@ export default {
     "spawn_time": "04:25",
     "multipliers": [2.1],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "008",
@@ -229,8 +229,8 @@ export default {
     "spawn_time": "07:02",
     "multipliers": [1.4],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "007",
@@ -257,8 +257,8 @@ export default {
     "spawn_time": "00:06",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "007",
@@ -285,9 +285,9 @@ export default {
     "spawn_time": "16:35",
     "multipliers": [1.05],
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "011",
@@ -317,9 +317,9 @@ export default {
       3.79
     ],
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "010",
@@ -347,11 +347,11 @@ export default {
     "spawn_time": "05:23",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Eléctrico",
-      "Hielo",
-      "Volador",
-      "Roca"
+      " Fuego",
+      " Eléctrico",
+      " Hielo",
+      " Volador",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "010",
@@ -382,10 +382,10 @@ export default {
       1.09
     ],
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Psíquico",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Psíquico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "014",
@@ -416,10 +416,10 @@ export default {
       3.41
     ],
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Psíquico",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Psíquico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "013",
@@ -447,10 +447,10 @@ export default {
     "spawn_time": "04:50",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Psíquico",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Psíquico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "013",
@@ -481,8 +481,8 @@ export default {
       1.92
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "017",
@@ -510,8 +510,8 @@ export default {
     "spawn_time": "01:30",
     "multipliers": [1.79],
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "016",
@@ -539,8 +539,8 @@ export default {
     "spawn_time": "01:50",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "016",
@@ -570,7 +570,7 @@ export default {
       2.73
     ],
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "next_evolution": [{
       "num": "020",
@@ -593,7 +593,7 @@ export default {
     "spawn_time": "01:56",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "prev_evolution": [{
       "num": "019",
@@ -621,8 +621,8 @@ export default {
       2.68
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "022",
@@ -646,8 +646,8 @@ export default {
     "spawn_time": "01:11",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "021",
@@ -674,8 +674,8 @@ export default {
       2.27
     ],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "024",
@@ -698,8 +698,8 @@ export default {
     "spawn_time": "01:50",
     "multipliers": null,
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "023",
@@ -723,7 +723,7 @@ export default {
     "spawn_time": "04:00",
     "multipliers": [2.34],
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ],
     "next_evolution": [{
       "num": "026",
@@ -746,7 +746,7 @@ export default {
     "spawn_time": "23:58",
     "multipliers": null,
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "025",
@@ -770,9 +770,9 @@ export default {
     "spawn_time": "01:58",
     "multipliers": [2.45],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "next_evolution": [{
       "num": "028",
@@ -795,9 +795,9 @@ export default {
     "spawn_time": "12:34",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "prev_evolution": [{
       "num": "027",
@@ -824,8 +824,8 @@ export default {
       2.48
     ],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "030",
@@ -855,8 +855,8 @@ export default {
       2.48
     ],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "029",
@@ -884,10 +884,10 @@ export default {
     "spawn_time": "12:35",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Hielo",
-      "Tierra",
-      "Psíquico"
+      " Agua",
+      " Hielo",
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "029",
@@ -917,8 +917,8 @@ export default {
       1.7
     ],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "033",
@@ -945,8 +945,8 @@ export default {
     "spawn_time": "09:02",
     "multipliers": [1.83],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "032",
@@ -974,10 +974,10 @@ export default {
     "spawn_time": "12:16",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Hielo",
-      "Tierra",
-      "Psíquico"
+      " Agua",
+      " Hielo",
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "032",
@@ -1007,7 +1007,7 @@ export default {
       2.14
     ],
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "next_evolution": [{
       "num": "036",
@@ -1030,7 +1030,7 @@ export default {
     "spawn_time": "03:29",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "prev_evolution": [{
       "num": "035",
@@ -1057,9 +1057,9 @@ export default {
       2.81
     ],
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "038",
@@ -1082,9 +1082,9 @@ export default {
     "spawn_time": "01:32",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "037",
@@ -1108,7 +1108,7 @@ export default {
     "spawn_time": "08:46",
     "multipliers": [1.85],
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "next_evolution": [{
       "num": "040",
@@ -1131,7 +1131,7 @@ export default {
     "spawn_time": "12:28",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "prev_evolution": [{
       "num": "039",
@@ -1159,10 +1159,10 @@ export default {
       3.67
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Hielo",
-      "Psíquico",
-      "Roca"
+      " Eléctrico",
+      " Hielo",
+      " Psíquico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "042",
@@ -1186,10 +1186,10 @@ export default {
     "spawn_time": "02:15",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Hielo",
-      "Psíquico",
-      "Roca"
+      " Eléctrico",
+      " Hielo",
+      " Psíquico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "041",
@@ -1214,10 +1214,10 @@ export default {
     "spawn_time": "03:58",
     "multipliers": [1.5],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "044",
@@ -1245,10 +1245,10 @@ export default {
     "spawn_time": "11:33",
     "multipliers": [1.49],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "043",
@@ -1276,10 +1276,10 @@ export default {
     "spawn_time": "23:58",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "043",
@@ -1307,12 +1307,12 @@ export default {
     "spawn_time": "01:42",
     "multipliers": [2.02],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Veneno",
-      "Volador",
-      "Bicho",
-      "Roca"
+      " Fuego",
+      " Hielo",
+      " Veneno",
+      " Volador",
+      " Bicho",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "047",
@@ -1336,12 +1336,12 @@ export default {
     "spawn_time": "01:22",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Veneno",
-      "Volador",
-      "Bicho",
-      "Roca"
+      " Fuego",
+      " Hielo",
+      " Veneno",
+      " Volador",
+      " Bicho",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "046",
@@ -1369,10 +1369,10 @@ export default {
       1.9
     ],
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Psíquico",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Psíquico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "049",
@@ -1396,10 +1396,10 @@ export default {
     "spawn_time": "23:40",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Psíquico",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Psíquico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "048",
@@ -1423,9 +1423,9 @@ export default {
     "spawn_time": "02:22",
     "multipliers": [2.69],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "next_evolution": [{
       "num": "051",
@@ -1448,9 +1448,9 @@ export default {
     "spawn_time": "12:37",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "prev_evolution": [{
       "num": "050",
@@ -1474,7 +1474,7 @@ export default {
     "spawn_time": "02:54",
     "multipliers": [1.98],
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "next_evolution": [{
       "num": "053",
@@ -1497,7 +1497,7 @@ export default {
     "spawn_time": "02:44",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "prev_evolution": [{
       "num": "052",
@@ -1521,8 +1521,8 @@ export default {
     "spawn_time": "03:41",
     "multipliers": [2.27],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "055",
@@ -1545,8 +1545,8 @@ export default {
     "spawn_time": "23:06",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "054",
@@ -1573,9 +1573,9 @@ export default {
       2.28
     ],
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "next_evolution": [{
       "num": "057",
@@ -1598,9 +1598,9 @@ export default {
     "spawn_time": "12:33",
     "multipliers": null,
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "056",
@@ -1627,9 +1627,9 @@ export default {
       2.36
     ],
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "059",
@@ -1652,9 +1652,9 @@ export default {
     "spawn_time": "03:11",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "058",
@@ -1681,8 +1681,8 @@ export default {
       1.73
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "061",
@@ -1709,8 +1709,8 @@ export default {
     "spawn_time": "09:14",
     "multipliers": [1.95],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "060",
@@ -1738,11 +1738,11 @@ export default {
     "spawn_time": "01:32",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Eléctrico",
+      " Planta",
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "060",
@@ -1772,9 +1772,9 @@ export default {
       1.95
     ],
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "next_evolution": [{
       "num": "064",
@@ -1801,9 +1801,9 @@ export default {
     "spawn_time": "11:25",
     "multipliers": [1.4],
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "063",
@@ -1830,9 +1830,9 @@ export default {
     "spawn_time": "12:33",
     "multipliers": null,
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "063",
@@ -1862,9 +1862,9 @@ export default {
       1.65
     ],
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "next_evolution": [{
       "num": "067",
@@ -1891,9 +1891,9 @@ export default {
     "spawn_time": "10:32",
     "multipliers": [1.7],
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "066",
@@ -1920,9 +1920,9 @@ export default {
     "spawn_time": "02:55",
     "multipliers": null,
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "066",
@@ -1950,10 +1950,10 @@ export default {
     "spawn_time": "04:10",
     "multipliers": [1.57],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "070",
@@ -1981,10 +1981,10 @@ export default {
     "spawn_time": "09:45",
     "multipliers": [1.59],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "069",
@@ -2012,10 +2012,10 @@ export default {
     "spawn_time": "12:19",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Volador",
-      "Psíquico"
+      " Fuego",
+      " Hielo",
+      " Volador",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "069",
@@ -2043,9 +2043,9 @@ export default {
     "spawn_time": "03:20",
     "multipliers": [2.52],
     "weaknesses": [
-      "Eléctrico",
-      "Tierra",
-      "Psíquico"
+      " Eléctrico",
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "073",
@@ -2069,9 +2069,9 @@ export default {
     "spawn_time": "23:36",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Tierra",
-      "Psíquico"
+      " Eléctrico",
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "072",
@@ -2099,12 +2099,12 @@ export default {
       1.76
     ],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ],
     "next_evolution": [{
       "num": "075",
@@ -2135,12 +2135,12 @@ export default {
       1.72
     ],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ],
     "prev_evolution": [{
       "num": "074",
@@ -2168,12 +2168,12 @@ export default {
     "spawn_time": "12:16",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ],
     "prev_evolution": [{
       "num": "074",
@@ -2228,9 +2228,9 @@ export default {
     "spawn_time": "04:00",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "077",
@@ -2255,11 +2255,11 @@ export default {
     "spawn_time": "07:12",
     "multipliers": [2.21],
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Eléctrico",
+      " Planta",
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "next_evolution": [{
       "num": "080",
@@ -2283,11 +2283,11 @@ export default {
     "spawn_time": "02:56",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Eléctrico",
+      " Planta",
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "079",
@@ -2314,9 +2314,9 @@ export default {
       2.17
     ],
     "weaknesses": [
-      "Fuego",
-      "Agua",
-      "Tierra"
+      " Fuego",
+      " Agua",
+      " Tierra"
     ],
     "next_evolution": [{
       "num": "082",
@@ -2339,9 +2339,9 @@ export default {
     "spawn_time": "15:25",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Agua",
-      "Tierra"
+      " Fuego",
+      " Agua",
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "081",
@@ -2365,8 +2365,8 @@ export default {
     "spawn_time": "01:09",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ]
   }, {
     "id": 84,
@@ -2390,8 +2390,8 @@ export default {
       2.24
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "next_evolution": [{
       "num": "085",
@@ -2415,8 +2415,8 @@ export default {
     "spawn_time": "02:12",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "084",
@@ -2443,8 +2443,8 @@ export default {
       1.96
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "087",
@@ -2468,10 +2468,10 @@ export default {
     "spawn_time": "06:04",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Roca"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "086",
@@ -2495,8 +2495,8 @@ export default {
     "spawn_time": "15:11",
     "multipliers": [2.44],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "089",
@@ -2519,8 +2519,8 @@ export default {
     "spawn_time": "01:28",
     "multipliers": null,
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "088",
@@ -2544,8 +2544,8 @@ export default {
     "spawn_time": "07:39",
     "multipliers": [2.65],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "091",
@@ -2569,10 +2569,10 @@ export default {
     "spawn_time": "02:33",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Roca"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "090",
@@ -2597,10 +2597,10 @@ export default {
     "spawn_time": "04:21",
     "multipliers": [1.78],
     "weaknesses": [
-      "Tierra",
-      "Psíquico",
-      "Fantasma",
-      "Oscuro"
+      " Tierra",
+      " Psíquico",
+      " Fantasma",
+      " Oscuro"
     ],
     "next_evolution": [{
       "num": "093",
@@ -2631,10 +2631,10 @@ export default {
       1.8
     ],
     "weaknesses": [
-      "Tierra",
-      "Psíquico",
-      "Fantasma",
-      "Oscuro"
+      " Tierra",
+      " Psíquico",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "092",
@@ -2662,10 +2662,10 @@ export default {
     "spawn_time": "03:55",
     "multipliers": null,
     "weaknesses": [
-      "Tierra",
-      "Psíquico",
-      "Fantasma",
-      "Oscuro"
+      " Tierra",
+      " Psíquico",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "092",
@@ -2692,12 +2692,12 @@ export default {
     "spawn_time": "01:18",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ]
   }, {
     "id": 96,
@@ -2720,9 +2720,9 @@ export default {
       2.09
     ],
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "next_evolution": [{
       "num": "097",
@@ -2745,9 +2745,9 @@ export default {
     "spawn_time": "02:17",
     "multipliers": null,
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "096",
@@ -2774,8 +2774,8 @@ export default {
       2.4
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "099",
@@ -2798,8 +2798,8 @@ export default {
     "spawn_time": "03:44",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "098",
@@ -2826,7 +2826,7 @@ export default {
       2.02
     ],
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ],
     "next_evolution": [{
       "num": "101",
@@ -2849,7 +2849,7 @@ export default {
     "spawn_time": "04:10",
     "multipliers": null,
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "100",
@@ -2877,13 +2877,13 @@ export default {
       3.18
     ],
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Veneno",
-      "Volador",
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Fuego",
+      " Hielo",
+      " Veneno",
+      " Volador",
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "next_evolution": [{
       "num": "103",
@@ -2907,13 +2907,13 @@ export default {
     "spawn_time": "12:34",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Veneno",
-      "Volador",
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Fuego",
+      " Hielo",
+      " Veneno",
+      " Volador",
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "102",
@@ -2937,9 +2937,9 @@ export default {
     "spawn_time": "01:51",
     "multipliers": [1.67],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "next_evolution": [{
       "num": "105",
@@ -2962,9 +2962,9 @@ export default {
     "spawn_time": "03:59",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo"
+      " Agua",
+      " Planta",
+      " Hielo"
     ],
     "prev_evolution": [{
       "num": "104",
@@ -2987,9 +2987,9 @@ export default {
     "spawn_time": "03:59",
     "multipliers": null,
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ]
   }, {
     "id": 107,
@@ -3008,9 +3008,9 @@ export default {
     "spawn_time": "05:58",
     "multipliers": null,
     "weaknesses": [
-      "Volador",
-      "Psíquico",
-      "Hada"
+      " Volador",
+      " Psíquico",
+      " Hada"
     ]
   }, {
     "id": 108,
@@ -3049,8 +3049,8 @@ export default {
     "spawn_time": "08:16",
     "multipliers": [1.11],
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "next_evolution": [{
       "num": "110",
@@ -3073,8 +3073,8 @@ export default {
     "spawn_time": "12:17",
     "multipliers": null,
     "weaknesses": [
-      "Tierra",
-      "Psíquico"
+      " Tierra",
+      " Psíquico"
     ],
     "prev_evolution": [{
       "num": "109",
@@ -3099,12 +3099,12 @@ export default {
     "spawn_time": "03:21",
     "multipliers": [1.91],
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ],
     "next_evolution": [{
       "num": "112",
@@ -3128,12 +3128,12 @@ export default {
     "spawn_time": "05:50",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Planta",
-      "Hielo",
-      "Lucha",
-      "Tierra",
-      "Acero"
+      " Agua",
+      " Planta",
+      " Hielo",
+      " Lucha",
+      " Tierra",
+      " Acero"
     ],
     "prev_evolution": [{
       "num": "111",
@@ -3156,7 +3156,7 @@ export default {
     "spawn_time": "04:46",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 114,
@@ -3175,11 +3175,11 @@ export default {
     "spawn_time": "23:13",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Hielo",
-      "Veneno",
-      "Volador",
-      "Bicho"
+      " Fuego",
+      " Hielo",
+      " Veneno",
+      " Volador",
+      " Bicho"
     ]
   }, {
     "id": 115,
@@ -3198,7 +3198,7 @@ export default {
     "spawn_time": "02:40",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 116,
@@ -3218,8 +3218,8 @@ export default {
     "spawn_time": "02:53",
     "multipliers": [2.23],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "117",
@@ -3242,8 +3242,8 @@ export default {
     "spawn_time": "03:18",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "116",
@@ -3270,8 +3270,8 @@ export default {
       2.2
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "119",
@@ -3294,8 +3294,8 @@ export default {
     "spawn_time": "05:21",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "118",
@@ -3322,8 +3322,8 @@ export default {
       2.41
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "121",
@@ -3347,11 +3347,11 @@ export default {
     "spawn_time": "06:57",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Eléctrico",
+      " Planta",
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ],
     "prev_evolution": [{
       "num": "120",
@@ -3374,9 +3374,9 @@ export default {
     "spawn_time": "01:51",
     "multipliers": null,
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ]
   }, {
     "id": 123,
@@ -3396,11 +3396,11 @@ export default {
     "spawn_time": "05:43",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Eléctrico",
-      "Hielo",
-      "Volador",
-      "Roca"
+      " Fuego",
+      " Eléctrico",
+      " Hielo",
+      " Volador",
+      " Roca"
     ]
   }, {
     "id": 124,
@@ -3420,12 +3420,12 @@ export default {
     "spawn_time": "05:41",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Bicho",
-      "Roca",
-      "Fantasma",
-      "Oscuro",
-      "Acero"
+      " Fuego",
+      " Bicho",
+      " Roca",
+      " Fantasma",
+      " Oscuro",
+      " Acero"
     ]
   }, {
     "id": 125,
@@ -3444,7 +3444,7 @@ export default {
     "spawn_time": "04:28",
     "multipliers": null,
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ]
   }, {
     "id": 126,
@@ -3463,9 +3463,9 @@ export default {
     "spawn_time": "20:36",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ]
   }, {
     "id": 127,
@@ -3484,9 +3484,9 @@ export default {
     "spawn_time": "03:25",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Volador",
-      "Roca"
+      " Fuego",
+      " Volador",
+      " Roca"
     ]
   }, {
     "id": 128,
@@ -3505,7 +3505,7 @@ export default {
     "spawn_time": "00:37",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 129,
@@ -3528,8 +3528,8 @@ export default {
       11.8
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "next_evolution": [{
       "num": "130",
@@ -3553,8 +3553,8 @@ export default {
     "spawn_time": "02:15",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Roca"
+      " Eléctrico",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "129",
@@ -3578,10 +3578,10 @@ export default {
     "spawn_time": "08:59",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Roca"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Roca"
     ]
   }, {
     "id": 132,
@@ -3600,7 +3600,7 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 133,
@@ -3623,7 +3623,7 @@ export default {
       2.64
     ],
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ],
     "next_evolution": [{
       "num": "134",
@@ -3652,8 +3652,8 @@ export default {
     "spawn_time": "10:54",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta"
+      " Eléctrico",
+      " Planta"
     ],
     "prev_evolution": [{
       "num": "133",
@@ -3676,7 +3676,7 @@ export default {
     "spawn_time": "02:30",
     "multipliers": null,
     "weaknesses": [
-      "Tierra"
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "133",
@@ -3699,9 +3699,9 @@ export default {
     "spawn_time": "07:02",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Tierra",
-      "Roca"
+      " Agua",
+      " Tierra",
+      " Roca"
     ],
     "prev_evolution": [{
       "num": "133",
@@ -3724,7 +3724,7 @@ export default {
     "spawn_time": "02:49",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 138,
@@ -3745,10 +3745,10 @@ export default {
     "spawn_time": "10:23",
     "multipliers": [2.12],
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Tierra"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Tierra"
     ],
     "next_evolution": [{
       "num": "139",
@@ -3772,10 +3772,10 @@ export default {
     "spawn_time": "05:04",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Tierra"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "138",
@@ -3803,10 +3803,10 @@ export default {
       2.37
     ],
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Tierra"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Tierra"
     ],
     "next_evolution": [{
       "num": "141",
@@ -3830,10 +3830,10 @@ export default {
     "spawn_time": "23:40",
     "multipliers": null,
     "weaknesses": [
-      "Eléctrico",
-      "Planta",
-      "Lucha",
-      "Tierra"
+      " Eléctrico",
+      " Planta",
+      " Lucha",
+      " Tierra"
     ],
     "prev_evolution": [{
       "num": "140",
@@ -3857,11 +3857,11 @@ export default {
     "spawn_time": "23:40",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Eléctrico",
-      "Hielo",
-      "Roca",
-      "Acero"
+      " Agua",
+      " Eléctrico",
+      " Hielo",
+      " Roca",
+      " Acero"
     ]
   }, {
     "id": 143,
@@ -3880,7 +3880,7 @@ export default {
     "spawn_time": "23:40",
     "multipliers": null,
     "weaknesses": [
-      "Lucha"
+      " Lucha"
     ]
   }, {
     "id": 144,
@@ -3900,10 +3900,10 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Fuego",
-      "Eléctrico",
-      "Roca",
-      "Acero"
+      " Fuego",
+      " Eléctrico",
+      " Roca",
+      " Acero"
     ]
   }, {
     "id": 145,
@@ -3923,8 +3923,8 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Hielo",
-      "Roca"
+      " Hielo",
+      " Roca"
     ]
   }, {
     "id": 146,
@@ -3944,9 +3944,9 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Agua",
-      "Eléctrico",
-      "Roca"
+      " Agua",
+      " Eléctrico",
+      " Roca"
     ]
   }, {
     "id": 147,
@@ -3969,9 +3969,9 @@ export default {
       1.84
     ],
     "weaknesses": [
-      "Hielo",
-      "Dragón",
-      "Hada"
+      " Hielo",
+      " Dragón",
+      " Hada"
     ],
     "next_evolution": [{
       "num": "148",
@@ -3998,9 +3998,9 @@ export default {
     "spawn_time": "11:57",
     "multipliers": [2.05],
     "weaknesses": [
-      "Hielo",
-      "Dragón",
-      "Hada"
+      " Hielo",
+      " Dragón",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "147",
@@ -4028,10 +4028,10 @@ export default {
     "spawn_time": "23:38",
     "multipliers": null,
     "weaknesses": [
-      "Hielo",
-      "Roca",
-      "Dragón",
-      "Hada"
+      " Hielo",
+      " Roca",
+      " Dragón",
+      " Hada"
     ],
     "prev_evolution": [{
       "num": "147",
@@ -4057,9 +4057,9 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ]
   }, {
     "id": 151,
@@ -4078,9 +4078,9 @@ export default {
     "spawn_time": "N/A",
     "multipliers": null,
     "weaknesses": [
-      "Bicho",
-      "Fantasma",
-      "Oscuro"
+      " Bicho",
+      " Fantasma",
+      " Oscuro"
     ]
   }]
 };

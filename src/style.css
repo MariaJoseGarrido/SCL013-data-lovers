@@ -9,6 +9,8 @@ body {
     background-image: url('https://i.imgur.com/Bt0sdpD.jpg?1');
     background-repeat: repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     }
     
    .banner {
@@ -23,7 +25,7 @@ body {
       font-size: 20px;
       color: black;
       background: linear-gradient(to bottom, RoyalBlue, Teal);
-      border-radius: 15px;
+
       margin: 2% 0%;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
 
@@ -47,7 +49,7 @@ body {
    #footer {
       background: linear-gradient(to bottom right, #165051, #8AFEFF);
       color: #fff;
-      width: 100%;
+      width: auto;
       text-align: center;
       padding: 1em;
       align-self: flex-end;
@@ -80,14 +82,14 @@ body {
       border-radius: 10%;
       background: linear-gradient(to right, #40D1A3, #84D898);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
-      opacity: 88%;
+      opacity: 80%;
       transition: .5s;
       cursor: pointer;
    }
 
    .pokeCards:hover {
-      transform: rotateY(180deg);
-   }
+      opacity: 1;
+    }
 
    p {
       margin: 5px;
@@ -122,8 +124,8 @@ body {
       align-items:center;
       width: 340px;
       height: 300px;
-      border-radius: 10%;
-      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      border-radius: 2%;
+      background: lightgray;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       padding:1%;
    }
@@ -136,8 +138,8 @@ body {
       align-items:center;
       width: 340px;
       height: 200px;
-      border-radius: 10%;
-      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      border-radius: 2%;
+      background: lightgray;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       padding:1%;
       margin-top:10%;  
@@ -150,19 +152,19 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items:center;
-      width: 340px;
+      width: 360px;
       height: 350px;
-      border-radius: 10%;
-      background: linear-gradient(to bottom, RoyalBlue, Teal);
+      border-radius: 2%;
+      background: lightgray;
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       padding:1%;
       margin-top:10%;  
    }
 
-   #chatLogo img{
-      width: 250px;
-      height: 230px;
-    }
+   #chatLogo{
+      width: 300px;
+      height: auto;
+   }
 
     #main {
       display: flex;
@@ -179,7 +181,7 @@ body {
    /*Modal*/
 
    .modalpokeCards{
-      background: linear-gradient(0deg, rgba(7,34,78,1) 0%, rgba(2,77,162,1) 100%) !important;
+      background: linear-gradient(0deg, #1C6F76 0%, #093536 100%) !important;
       position: fixed;
       width: auto !important;
       height: auto !important;
@@ -206,6 +208,7 @@ body {
       cursor: pointer;
       font-size: 36px;
       color: white;
+      float:right;
    }
    
    .modalpokeCards.close {
@@ -221,3 +224,18 @@ body {
    text-decoration: none;
    cursor: pointer;
    }
+
+/*Iconos*/
+.fa-twitter{
+   color:white;
+   font-size: 40px; 
+}
+
+.fa-facebook-square{
+   color: white;
+   font-size: 40px; 
+}
+
+.text-black{
+   color:black;
+}

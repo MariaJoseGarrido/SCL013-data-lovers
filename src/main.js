@@ -25,7 +25,7 @@ const modal = ()=>{
         //variable para craer imagen pokemon
         let image = document.createElement("img");
         image.src = pokemon.img;
-    
+
         //variable peso pokemon
         let weight = document.createElement("p");
         weight.className="peso";

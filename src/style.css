@@ -83,11 +83,15 @@ body {
       opacity: 88%;
       transition: .5s;
       cursor: pointer;
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
    }
 
    .pokeCards:hover {
-      transform: rotateY(180deg);
+      transform : scale(1.1);
+      -webkit-transform : scale(1.1);
    }
+
 
    p {
       margin: 5px;

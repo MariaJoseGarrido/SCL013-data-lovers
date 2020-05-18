@@ -1,8 +1,7 @@
 import data from './data/pokemon/pokemon.js';
 
 //función ordernar por alfabeto y número
-export const filterData = (selectedOrder) => {
-    let filterOrder = selectedOrder.options[selectedOrder.selectedIndex].value;
+export const filterData = (filterOrder) => {
     let filtered = "";
     if (filterOrder==="1-151") {
         filtered = data.pokemon.sort((a,b)=>{

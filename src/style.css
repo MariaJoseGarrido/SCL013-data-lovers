@@ -244,7 +244,7 @@ body {
 
 /*celular*/
 @media (max-width:320px){
-   .banner img{width: 200px%}
+   .banner img{width: 200px}
 }
 /*tablet*/
 

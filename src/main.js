@@ -121,7 +121,8 @@ modal();
 //seleccionar ordenar por alfabeto o numero
 const selectOrder = document.getElementById("order");
 selectOrder.addEventListener("change", ()=>{
-    let selectedOrder = filterData(selectOrder);
+        let filterOrder = selectOrder.options[selectOrder.selectedIndex].value;
+        let selectedOrder = filterData(filterOrder);
     
     document.getElementById("pokedex").innerHTML="";
 

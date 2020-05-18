@@ -30,7 +30,7 @@ const modal = ()=>{
         let weight = document.createElement("p");
         weight.className="peso";
         weight.textContent = "Peso: " + pokemon.weight;
-    
+  
         //variable para altura
         let height = document.createElement("p");
         height.className="altura";
@@ -39,11 +39,12 @@ const modal = ()=>{
         //dulces
         let candy = document.createElement("p");
         candy.className= "candy"
-        candy.textContent = "Dulce: " + pokemon.candy;
+        candy.textContent ="Dulce: " + pokemon.candy;
+        //document.write('<img src="./img/candy.png" />');
     
         //debilidades
         let weaknesses = document.createElement("p");
-        weaknesses.className= "candy"
+        weaknesses.className= "weaknesses"
         weaknesses.textContent = "Debilidades: " + pokemon.weaknesses;
 
         //Dando valor a variables
@@ -55,7 +56,8 @@ const modal = ()=>{
         pokeCards.appendChild(candy);
         pokeCards.appendChild(weaknesses);
     
-        //Mostrar tarjeta en HTLM section
+    
+        //características modal
         document.getElementById("modalPokedex").appendChild(pokeCards).innerHTML;  
         let mod = document.getElementById("modalpokeCards");
         let body = document.getElementsByTagName("body")[0];
@@ -73,6 +75,7 @@ const modal = ()=>{
         });
     } 
 }
+
 
 
 //Creacion de tarjetas index

@@ -82,14 +82,17 @@ body {
       border-radius: 10%;
       background: linear-gradient(to right, #40D1A3, #84D898);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
-      opacity: 80%;
       transition: .5s;
       cursor: pointer;
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
    }
 
    .pokeCards:hover {
-      opacity: 1;
-    }
+      transform : scale(1.1);
+      -webkit-transform : scale(1.1);
+   }
+
 
    p {
       margin: 5px;
@@ -114,7 +117,6 @@ body {
       font-size: 15px;
    }
 
-
    .cajavideo{
       font-family: 'Dosis', sans-serif;
       font-size: 20px;
@@ -125,8 +127,8 @@ body {
       width: 340px;
       height: 300px;
       border-radius: 2%;
-      background: lightgray;
-      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
+      background:rgba(173, 173, 173, .8);
+      box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.);
       padding:1%;
    }
    .box2{
@@ -139,7 +141,7 @@ body {
       width: 340px;
       height: 200px;
       border-radius: 2%;
-      background: lightgray;
+      background:rgba(173, 173, 173, .8);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       padding:1%;
       margin-top:10%;  
@@ -155,7 +157,7 @@ body {
       width: 360px;
       height: 350px;
       border-radius: 2%;
-      background: lightgray;
+      background:rgba(173, 173, 173, .8);
       box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.75);
       padding:1%;
       margin-top:10%;  
@@ -238,4 +240,19 @@ body {
 
 .text-black{
    color:black;
+}
+
+/*celular*/
+@media (max-width:320px){
+   .banner img{width: 200px%}
+}
+/*tablet*/
+
+@media (max-width: 600px) {
+   .banner img{
+    width: 100%;
+    }
+    .aside{
+          display: none;
+    }
 }

@@ -11,9 +11,9 @@
 
 ## Definición de Usuario
 
-Sexo: Hombres - Mujeres
-Edad: Mayores de 14 años
-Público objetivo y general: personas con o sin conocimiento sobre el videojuego que deseen obtener información sobre los personajes de la primera generación de la serie Pokemón.
+- Sexo: Hombres - Mujeres
+- Edad: Mayores de 14 años
+- Público objetivo y general: personas con o sin conocimiento sobre el videojuego que deseen obtener información sobre los personajes de la primera generación de la serie Pokemón.
 
 ## Historias de Usuario
 
